@@ -5,11 +5,11 @@ The purpose of this analysis is to indicate which features of wine are the most 
 ## Communication Protocol
 All three members of this team correspond daily via Slack messaging. Every other day, the team members meet by Zoom video calls. In these calls, four points of communication are touched upon. 
 
-First, we explain to one another our progress - Starting with that which has been accomplished individually. Then, we explain how all of our progress integrates more broadly into the scope of our entire project. Here, we highlight our successful outcomes as we work on completing our project. 
+First, we explain to one another our progress, starting with that which has been accomplished individually. We then explain how all of our individual progress integrates more broadly into the entire scope of our project. Here, we highlight our successful outcomes as we work on completing our project. 
 
 Second, we elaborate upon where we plan to take the project from the present moment. We discuss what has been accomplished, we explain where we stand currently in our progress, and we then plan the future of our wine quality analysis. We touch back on previously-established goals and formulate new goals for what we want to accomplish throughout our project.
 
-Next, we ask questions to one another to discern how we will accomplish that which needs to be taken care of next. Here, we compile which tasks are to be completed. Then, we fairly divide the workload amongst one another. We communicate clearly and record our plans in writing, taking notes as we coordinate.
+Next, we ask questions to one another to discern how we will accomplish that which needs to be taken care of next. Here, we compile which tasks are to be completed. Then, we fairly distribute the workload amongst one another. We communicate clearly and record our plans in writing, taking notes as we coordinate.
 
 Finally, we encourage one another to be excellent. We touch back on our project goals once more. We point out the positive qualities in one another in earnest, and elaborate upon how those qualities help to make the group work most productively and cohesively.
 
