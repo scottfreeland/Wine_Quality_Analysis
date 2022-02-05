@@ -1,11 +1,11 @@
 # Wine_Quality_Analysis
 
-The purpose of this analysis is to indicate which features of wine are the most important in determining the quality of any given wine. Using a machine learning model, we aim to convey what it takes to create the highest-quality, most successful, and most marketable wine.
+The purpose of this analysis is to indicate which features of wine are the most important in determining the quality of wine. Using a machine learning model, we aim to convey what it takes to create the highest-quality, most successful, and most marketable wine.
 
 ## Communication Protocol
 All three members of this team correspond daily via Slack messaging. Every other day, the team members meet by Zoom video calls. In these calls, four points of communication are touched upon. 
 
-First, we explain to one another our progress, starting with that which has been accomplished individually. We then explain how all of our individual progress integrates more broadly into the entire scope of our project. Here, we highlight our successful outcomes as we work on completing our project. 
+First, we explain to one another our progress, starting with that which has been accomplished individually. We then explain how all of our individual progress integrates more broadly into the entire scope of our project. Here, we highlight our successful outcomes as we work on completing our project. We also discuss what has been troublesome during the opening of the call. We communicate which tasks have been giving us trouble, and we make a plan for how we will overcome obstacles each group member has encountered.
 
 Second, we elaborate upon where we plan to take the project from the present moment. We discuss what has been accomplished, we explain where we stand currently in our progress, and we then plan the future of our wine quality analysis. We touch back on previously-established goals and formulate new goals for what we want to accomplish throughout our project.
 
