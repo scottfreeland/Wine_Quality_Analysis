@@ -1,17 +1,17 @@
 CREATE TABLE wine_quality (
      type VARCHAR(40) NOT NULL,
-     fixed_acidity VARCHAR(40) NOT NULL,
-	 volatile_acidity VARCHAR(40) NOT NULL,
-	 citric_acid VARCHAR(40) NOT NULL,
-	 residual_sugar VARCHAR(40) NOT NULL,
-	 chlorides VARCHAR(40) NOT NULL,
-	 free_sulfur_dioxide VARCHAR(40) NOT NULL,
-	 total_sulfur_dioxide VARCHAR(40) NOT NULL,
-	 density VARCHAR(40) NOT NULL,
-	 ph VARCHAR(40) NOT NULL,
-	 sulfates VARCHAR(40) NOT NULL,
-	 alcohol VARCHAR(40) NOT NULL,
-	 quality VARCHAR(40) NOT NULL
+     fixed_acidity real NOT NULL,
+	 volatile_acidity real NOT NULL,
+	 citric_acid real NOT NULL,
+	 residual_sugar real NOT NULL,
+	 chlorides real NOT NULL,
+	 free_sulfur_dioxide real NOT NULL,
+	 total_sulfur_dioxide real NOT NULL,
+	 density real NOT NULL,
+	 ph real NOT NULL,
+	 sulfates real NOT NULL,
+	 alcohol real NOT NULL,
+	 quality real NOT NULL
 );
 
 SELECT *
