@@ -24,6 +24,3 @@ We maintain a handful of questions we seek to answer once our analysis is thorou
 - Which features do not play an important role in wine quality scoring?
 - What model is best at predicting outcomes?
 - *Why* is the model that is *best* at predicting outcomes the best at doing so?
-
-## Visualization of chemical features & wine quality
-The correlation factors (pearson) between variables are calculated. Tableau is used to show the correlation between chemical features and wine quality (https://public.tableau.com/app/profile/jinghong.kou/viz/DataCamp_FinalProject_wine_analysis/DataCamp_finalproject).
