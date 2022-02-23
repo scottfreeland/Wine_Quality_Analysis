@@ -2,4 +2,4 @@
 .DS_Store
 
 # Ignore files in the final main branch 
-* winequalityN.csv
+*.csv
