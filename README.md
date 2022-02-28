@@ -2,8 +2,12 @@
 
 The purpose of this analysis is to indicate which features of wine are the most important in determining the quality of wine. Using a machine learning model, we aim to convey what it takes to create the highest-quality, most successful, and most marketable wine.
 
-## Keeping Track of Tasks
-The team will create a Google spreadsheet with tasks to complete throughout the project. Each row will indicate a task, with columns denoting how the task was completed, when it was completed, who completed it, and finally a column indicating that the other teammates have corroborated the success of the marked 'completed task'.
+## Analysis
+### Machine Learning Models
+Please see DNN_Classification_WineQuality_Red_Hyper_Tuning.ipynb and DNN_Classification_WineQuality_White_Hyper_Tuning.ipynb for our Deep Learning Neural Network machine learning models on both red and white wines, respectively.
+
+### Pre-Processing
+Please see the various files in Resources/Preprocessing for our initial pre-processing and data cleanup.
 
 ## Questions We Seek to Answer
 We maintain a handful of questions we seek to answer once our analysis is thoroughly complete.
