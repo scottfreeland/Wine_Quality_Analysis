@@ -29,9 +29,11 @@ The SVM Model relies on a kernel to transform the data, and based on the transfo
 
 After standardizing the feature variables in both the training and testing data, our dataset is ready for both models. First, we trained and evaluated our SVM. As seen on the Tableau Dashboard and Correlation Matrix below, we see that each type of Wine has similar features that are better predictors of Quality in the overall wine score. Because of this rationale and first having lower accuracy score, we decided to nullify and drop the features that have negative correlation and affect our overall Wine Quality score.
 
-*** Bar Chart Showing the Correlation for Different Features influencing Overall Wine Quality Score ***
+***Bar Chart Showing the Correlation for Different Features influencing Overall Wine Quality Score***
 
-The graphs above show more intuitively alcohol, ph levels, citric acid, and sulphates weigh more than others in predicting wine quality.
+![Screen Shot 2022-02-27 at 10 16 45 PM](https://user-images.githubusercontent.com/90523595/155921140-d297de2b-a63a-4eb3-a999-af45d5390cdb.png)
+
+The graphs above show more intuitively the features that weigh more than others in predicting wine quality for each type of wine.
 
 **Analysis, Findings, and Outcomes** 
 
