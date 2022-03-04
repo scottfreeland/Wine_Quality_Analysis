@@ -21,6 +21,9 @@ We maintain a handful of questions we seek to answer once our analysis is thorou
 ## Link to Dashboard
 https://public.tableau.com/app/profile/scott.freeland/viz/Wine_Quality_Analysis/Wine_Quality_Analysis?publish=yes
 
+## Link to Project Presentation
+https://docs.google.com/presentation/d/1IDdTu37ZQxnPOzWJw-ReVXauQ7LKevOt6YPbsvfWwpQ/edit?usp=sharing
+
 ### SVM Model
 
 **Support Vector Machine (SVM)**, like logistic regression, is a binary classifier: It can categorize samples into one of two categories (for example, yes or no). This supervised machine learning algorithm is powerful for classification problems. Originaly we tried to create separate bins for different levels of Wine Quality based on the Dataset, but ultimately we wanted to focus on Wine Quality Level scores above 7.
@@ -48,5 +51,16 @@ The only noticeable difference between the two models is implementation; the amo
 - The final accuracy on testing dataset of the SVM model is 0.78 for White Wine 
 - By tuning the hyper-parameters, the performance of the SVM model accuracy score increased drastically. 
 
+### Deep Learning Neural Network Model
+There are a number of advantages to using a neural network instead of a traditional statistical or machine learning model. For one, neural networks are effective at detecting complex, nonlinear relationships. Additionally, neural networks have greater tolerance for messy data and can learn to ignore noisy characteristics in data. Given the sheer amount of wine data we have available, we were led to believe that a neural network would be appropriate to apply to our data as a machine learning model.
+
+As with any machine learning algorithm, it is crucial to normalize or standardize our numerical variables to ensure that our neural network does not focus on outliers and can apply proper weights to each input. In most cases, the more that input variables are normalized to the same scale, the more stable the neural network model is, and the better the neural network model will generalize. As such, we used StandardScaler from the SciKitLearn python library.
+
+We used two hidden layers initially, with 50 and 25 nodes, respectively. Both of these layers used "relu" activation functions. Finally, our output layer, which funnels the findings from all the hidden layers, has the "sigmoid" activation function applied to it. After 20 epochs, our model achieved 100% accuracy in predicting whether a wine was of "good quality" or not. This likely means our model was overfit to our data. The goal of this machine learning model is to feed in more wine data and to have our model discern whether that new wine data indicates a wine is of "good quality" or not. If our model is over fit to our data, it may be compromised when applied to new data. That said, we still believe it is the better model when compared to the Support Vector Machine model because it reached a higher accuracy score.
 
 In conclusion, alcohol, citric acid, ph levels, and sulphates are the top important properties that can make a quality wine. Higher quality wines have higher levels of alcohol on average, lower levels of citric acid on average, higher ph levels, and higher levels of sulphates on average. Despite these findings, we also can infer that a better and more intricate model like the Neural Network model have better performance outcomes, but tend to have more time in creating, training, and executing the model. The pay off in this sense is that one is better able to predict Quality more accurately for Red and White Wine. Further research should include a larger data set, the brands of wine were omitted because of any bias, but including more types of wine variety such as Bubbles and Rosé would help better train and fine tune this model. This would also help see specifically which physiochemical features are better quality predictors for specific types of wine. 
+
+### Contact the Authors
+Contact Jinghong at kjinghong@hotmail.com or on LinkedIn https://www.linkedin.com/in/jinghong-kou-7484162b/
+Contact Richard at richard.hernandez395@gmail.com or on LinkedIn https://www.linkedin.com/in/richard-hernandez-54586513b/
+Contact Scott at scottfreeland98@gmail.com or on LinkedIn https://www.linkedin.com/in/scottafreeland/
